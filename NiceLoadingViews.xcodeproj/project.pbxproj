@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61160F019B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F61160EF19B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.m */; };
+		F61160F419B1050B00DA3CD8 /* YETICharacterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F61160F319B1050B00DA3CD8 /* YETICharacterLabel.m */; };
+		F61160F719B1051600DA3CD8 /* YETIFadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F61160F619B1051600DA3CD8 /* YETIFadeLabel.m */; };
+		F61160FA19B1052700DA3CD8 /* YETILayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F61160F919B1052700DA3CD8 /* YETILayerAnimation.m */; };
+		F61160FF19B1211E00DA3CD8 /* PBTriangleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F61160FE19B1211E00DA3CD8 /* PBTriangleLoadingView.m */; };
+		F611610319B142AD00DA3CD8 /* AveniBla in Resources */ = {isa = PBXBuildFile; fileRef = F611610219B142AD00DA3CD8 /* AveniBla */; };
+		F66C380719AD36AD00444496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C380619AD36AD00444496 /* Foundation.framework */; };
+		F66C380919AD36AD00444496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C380819AD36AD00444496 /* CoreGraphics.framework */; };
+		F66C380B19AD36AD00444496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C380A19AD36AD00444496 /* UIKit.framework */; };
+		F66C381119AD36AD00444496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66C380F19AD36AD00444496 /* InfoPlist.strings */; };
+		F66C381319AD36AD00444496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C381219AD36AD00444496 /* main.m */; };
+		F66C381719AD36AD00444496 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C381619AD36AD00444496 /* PBAppDelegate.m */; };
+		F66C381919AD36AD00444496 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C381819AD36AD00444496 /* Images.xcassets */; };
+		F66C382019AD36AD00444496 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C381F19AD36AD00444496 /* XCTest.framework */; };
+		F66C382119AD36AD00444496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C380619AD36AD00444496 /* Foundation.framework */; };
+		F66C382219AD36AD00444496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C380A19AD36AD00444496 /* UIKit.framework */; };
+		F66C382A19AD36AD00444496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66C382819AD36AD00444496 /* InfoPlist.strings */; };
+		F66C382C19AD36AD00444496 /* NiceLoadingViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C382B19AD36AD00444496 /* NiceLoadingViewsTests.m */; };
+		F66C383819AD36D500444496 /* PBMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C383619AD36D500444496 /* PBMainView.m */; };
+		F66C383919AD36D500444496 /* PBMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66C383719AD36D500444496 /* PBMainView.xib */; };
+		F66C383C19AD3B0100444496 /* PBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C383B19AD3B0100444496 /* PBLoadingView.m */; };
+		F66C383F19AE8BC300444496 /* HMLogoAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F66C383E19AE8BC300444496 /* HMLogoAnimatedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66C382319AD36AD00444496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66C37FB19AD36AD00444496 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66C380219AD36AD00444496;
+			remoteInfo = NiceLoadingViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F61160EE19B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMHomeScreenAnimatedView.h; path = HomeMade/HMHomeScreenAnimatedView.h; sourceTree = "<group>"; };
+		F61160EF19B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMHomeScreenAnimatedView.m; path = HomeMade/HMHomeScreenAnimatedView.m; sourceTree = "<group>"; };
+		F61160F219B1050B00DA3CD8 /* YETICharacterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETICharacterLabel.h; sourceTree = "<group>"; };
+		F61160F319B1050B00DA3CD8 /* YETICharacterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETICharacterLabel.m; sourceTree = "<group>"; };
+		F61160F519B1051600DA3CD8 /* YETIFadeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETIFadeLabel.h; sourceTree = "<group>"; };
+		F61160F619B1051600DA3CD8 /* YETIFadeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETIFadeLabel.m; sourceTree = "<group>"; };
+		F61160F819B1052700DA3CD8 /* YETILayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETILayerAnimation.h; sourceTree = "<group>"; };
+		F61160F919B1052700DA3CD8 /* YETILayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETILayerAnimation.m; sourceTree = "<group>"; };
+		F61160FD19B1211E00DA3CD8 /* PBTriangleLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBTriangleLoadingView.h; sourceTree = "<group>"; };
+		F61160FE19B1211E00DA3CD8 /* PBTriangleLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBTriangleLoadingView.m; sourceTree = "<group>"; };
+		F611610219B142AD00DA3CD8 /* AveniBla */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AveniBla; sourceTree = "<group>"; };
+		F66C380319AD36AD00444496 /* NiceLoadingViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceLoadingViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66C380619AD36AD00444496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F66C380819AD36AD00444496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F66C380A19AD36AD00444496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F66C380E19AD36AD00444496 /* NiceLoadingViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceLoadingViews-Info.plist"; sourceTree = "<group>"; };
+		F66C381019AD36AD00444496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66C381219AD36AD00444496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F66C381419AD36AD00444496 /* NiceLoadingViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceLoadingViews-Prefix.pch"; sourceTree = "<group>"; };
+		F66C381519AD36AD00444496 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		F66C381619AD36AD00444496 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
+		F66C381819AD36AD00444496 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66C381E19AD36AD00444496 /* NiceLoadingViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceLoadingViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66C381F19AD36AD00444496 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F66C382719AD36AD00444496 /* NiceLoadingViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NiceLoadingViewsTests-Info.plist"; sourceTree = "<group>"; };
+		F66C382919AD36AD00444496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F66C382B19AD36AD00444496 /* NiceLoadingViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiceLoadingViewsTests.m; sourceTree = "<group>"; };
+		F66C383519AD36D500444496 /* PBMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBMainView.h; sourceTree = "<group>"; };
+		F66C383619AD36D500444496 /* PBMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBMainView.m; sourceTree = "<group>"; };
+		F66C383719AD36D500444496 /* PBMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBMainView.xib; sourceTree = "<group>"; };
+		F66C383A19AD3B0100444496 /* PBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLoadingView.h; sourceTree = "<group>"; };
+		F66C383B19AD3B0100444496 /* PBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLoadingView.m; sourceTree = "<group>"; };
+		F66C383D19AE8BC300444496 /* HMLogoAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMLogoAnimatedView.h; path = HomeMade/HMLogoAnimatedView.h; sourceTree = "<group>"; };
+		F66C383E19AE8BC300444496 /* HMLogoAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMLogoAnimatedView.m; path = HomeMade/HMLogoAnimatedView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F66C380019AD36AD00444496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C380919AD36AD00444496 /* CoreGraphics.framework in Frameworks */,
+				F66C380B19AD36AD00444496 /* UIKit.framework in Frameworks */,
+				F66C380719AD36AD00444496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66C381B19AD36AD00444496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C382019AD36AD00444496 /* XCTest.framework in Frameworks */,
+				F66C382219AD36AD00444496 /* UIKit.framework in Frameworks */,
+				F66C382119AD36AD00444496 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61160F119B104ED00DA3CD8 /* YetiLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F61160F219B1050B00DA3CD8 /* YETICharacterLabel.h */,
+				F61160F319B1050B00DA3CD8 /* YETICharacterLabel.m */,
+				F61160F519B1051600DA3CD8 /* YETIFadeLabel.h */,
+				F61160F619B1051600DA3CD8 /* YETIFadeLabel.m */,
+				F61160F819B1052700DA3CD8 /* YETILayerAnimation.h */,
+				F61160F919B1052700DA3CD8 /* YETILayerAnimation.m */,
+			);
+			name = YetiLabel;
+			sourceTree = "<group>";
+		};
+		F61160FB19B120F300DA3CD8 /* MyWork */ = {
+			isa = PBXGroup;
+			children = (
+				F66C383A19AD3B0100444496 /* PBLoadingView.h */,
+				F66C383B19AD3B0100444496 /* PBLoadingView.m */,
+				F61160FD19B1211E00DA3CD8 /* PBTriangleLoadingView.h */,
+				F61160FE19B1211E00DA3CD8 /* PBTriangleLoadingView.m */,
+			);
+			name = MyWork;
+			sourceTree = "<group>";
+		};
+		F61160FC19B120FB00DA3CD8 /* HomeMade */ = {
+			isa = PBXGroup;
+			children = (
+				F61160F119B104ED00DA3CD8 /* YetiLabel */,
+				F66C383D19AE8BC300444496 /* HMLogoAnimatedView.h */,
+				F66C383E19AE8BC300444496 /* HMLogoAnimatedView.m */,
+				F61160EE19B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.h */,
+				F61160EF19B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.m */,
+			);
+			name = HomeMade;
+			sourceTree = "<group>";
+		};
+		F66C37FA19AD36AD00444496 = {
+			isa = PBXGroup;
+			children = (
+				F66C380C19AD36AD00444496 /* NiceLoadingViews */,
+				F66C382519AD36AD00444496 /* NiceLoadingViewsTests */,
+				F66C380519AD36AD00444496 /* Frameworks */,
+				F66C380419AD36AD00444496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66C380419AD36AD00444496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66C380319AD36AD00444496 /* NiceLoadingViews.app */,
+				F66C381E19AD36AD00444496 /* NiceLoadingViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66C380519AD36AD00444496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66C380619AD36AD00444496 /* Foundation.framework */,
+				F66C380819AD36AD00444496 /* CoreGraphics.framework */,
+				F66C380A19AD36AD00444496 /* UIKit.framework */,
+				F66C381F19AD36AD00444496 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66C380C19AD36AD00444496 /* NiceLoadingViews */ = {
+			isa = PBXGroup;
+			children = (
+				F61160FC19B120FB00DA3CD8 /* HomeMade */,
+				F61160FB19B120F300DA3CD8 /* MyWork */,
+				F66C381519AD36AD00444496 /* PBAppDelegate.h */,
+				F66C381619AD36AD00444496 /* PBAppDelegate.m */,
+				F66C381819AD36AD00444496 /* Images.xcassets */,
+				F66C380D19AD36AD00444496 /* Supporting Files */,
+				F66C383519AD36D500444496 /* PBMainView.h */,
+				F66C383619AD36D500444496 /* PBMainView.m */,
+				F66C383719AD36D500444496 /* PBMainView.xib */,
+			);
+			path = NiceLoadingViews;
+			sourceTree = "<group>";
+		};
+		F66C380D19AD36AD00444496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F611610219B142AD00DA3CD8 /* AveniBla */,
+				F66C380E19AD36AD00444496 /* NiceLoadingViews-Info.plist */,
+				F66C380F19AD36AD00444496 /* InfoPlist.strings */,
+				F66C381219AD36AD00444496 /* main.m */,
+				F66C381419AD36AD00444496 /* NiceLoadingViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66C382519AD36AD00444496 /* NiceLoadingViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66C382B19AD36AD00444496 /* NiceLoadingViewsTests.m */,
+				F66C382619AD36AD00444496 /* Supporting Files */,
+			);
+			path = NiceLoadingViewsTests;
+			sourceTree = "<group>";
+		};
+		F66C382619AD36AD00444496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66C382719AD36AD00444496 /* NiceLoadingViewsTests-Info.plist */,
+				F66C382819AD36AD00444496 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66C380219AD36AD00444496 /* NiceLoadingViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66C382F19AD36AD00444496 /* Build configuration list for PBXNativeTarget "NiceLoadingViews" */;
+			buildPhases = (
+				F66C37FF19AD36AD00444496 /* Sources */,
+				F66C380019AD36AD00444496 /* Frameworks */,
+				F66C380119AD36AD00444496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceLoadingViews;
+			productName = NiceLoadingViews;
+			productReference = F66C380319AD36AD00444496 /* NiceLoadingViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66C381D19AD36AD00444496 /* NiceLoadingViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66C383219AD36AD00444496 /* Build configuration list for PBXNativeTarget "NiceLoadingViewsTests" */;
+			buildPhases = (
+				F66C381A19AD36AD00444496 /* Sources */,
+				F66C381B19AD36AD00444496 /* Frameworks */,
+				F66C381C19AD36AD00444496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66C382419AD36AD00444496 /* PBXTargetDependency */,
+			);
+			name = NiceLoadingViewsTests;
+			productName = NiceLoadingViewsTests;
+			productReference = F66C381E19AD36AD00444496 /* NiceLoadingViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66C37FB19AD36AD00444496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yeti LLC";
+				TargetAttributes = {
+					F66C381D19AD36AD00444496 = {
+						TestTargetID = F66C380219AD36AD00444496;
+					};
+				};
+			};
+			buildConfigurationList = F66C37FE19AD36AD00444496 /* Build configuration list for PBXProject "NiceLoadingViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F66C37FA19AD36AD00444496;
+			productRefGroup = F66C380419AD36AD00444496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66C380219AD36AD00444496 /* NiceLoadingViews */,
+				F66C381D19AD36AD00444496 /* NiceLoadingViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66C380119AD36AD00444496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C381119AD36AD00444496 /* InfoPlist.strings in Resources */,
+				F66C381919AD36AD00444496 /* Images.xcassets in Resources */,
+				F66C383919AD36D500444496 /* PBMainView.xib in Resources */,
+				F611610319B142AD00DA3CD8 /* AveniBla in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66C381C19AD36AD00444496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C382A19AD36AD00444496 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66C37FF19AD36AD00444496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61160FA19B1052700DA3CD8 /* YETILayerAnimation.m in Sources */,
+				F66C381719AD36AD00444496 /* PBAppDelegate.m in Sources */,
+				F61160F419B1050B00DA3CD8 /* YETICharacterLabel.m in Sources */,
+				F61160FF19B1211E00DA3CD8 /* PBTriangleLoadingView.m in Sources */,
+				F61160F019B0EDA600DA3CD8 /* HMHomeScreenAnimatedView.m in Sources */,
+				F66C383C19AD3B0100444496 /* PBLoadingView.m in Sources */,
+				F66C381319AD36AD00444496 /* main.m in Sources */,
+				F61160F719B1051600DA3CD8 /* YETIFadeLabel.m in Sources */,
+				F66C383F19AE8BC300444496 /* HMLogoAnimatedView.m in Sources */,
+				F66C383819AD36D500444496 /* PBMainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66C381A19AD36AD00444496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C382C19AD36AD00444496 /* NiceLoadingViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66C382419AD36AD00444496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66C380219AD36AD00444496 /* NiceLoadingViews */;
+			targetProxy = F66C382319AD36AD00444496 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66C380F19AD36AD00444496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66C381019AD36AD00444496 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F66C382819AD36AD00444496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66C382919AD36AD00444496 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66C382D19AD36AD00444496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F66C382E19AD36AD00444496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66C383019AD36AD00444496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceLoadingViews/NiceLoadingViews-Prefix.pch";
+				INFOPLIST_FILE = "NiceLoadingViews/NiceLoadingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F66C383119AD36AD00444496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceLoadingViews/NiceLoadingViews-Prefix.pch";
+				INFOPLIST_FILE = "NiceLoadingViews/NiceLoadingViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F66C383319AD36AD00444496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceLoadingViews.app/NiceLoadingViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceLoadingViews/NiceLoadingViews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NiceLoadingViewsTests/NiceLoadingViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F66C383419AD36AD00444496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NiceLoadingViews.app/NiceLoadingViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NiceLoadingViews/NiceLoadingViews-Prefix.pch";
+				INFOPLIST_FILE = "NiceLoadingViewsTests/NiceLoadingViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66C37FE19AD36AD00444496 /* Build configuration list for PBXProject "NiceLoadingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66C382D19AD36AD00444496 /* Debug */,
+				F66C382E19AD36AD00444496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66C382F19AD36AD00444496 /* Build configuration list for PBXNativeTarget "NiceLoadingViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66C383019AD36AD00444496 /* Debug */,
+				F66C383119AD36AD00444496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66C383219AD36AD00444496 /* Build configuration list for PBXNativeTarget "NiceLoadingViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66C383319AD36AD00444496 /* Debug */,
+				F66C383419AD36AD00444496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66C37FB19AD36AD00444496 /* Project object */;
+}
