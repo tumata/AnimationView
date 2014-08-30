@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14B925FA-EC93-4177-99AE-80C59DDEC59F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NiceLoadingViews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A5CB3EAA-2154-4243-93ED-A6361E99C989</key>
+		<string>ssh://github.com/tumata/AnimationView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NiceLoadingViews.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A5CB3EAA-2154-4243-93ED-A6361E99C989</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tumata/AnimationView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A5CB3EAA-2154-4243-93ED-A6361E99C989</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A5CB3EAA-2154-4243-93ED-A6361E99C989</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AnimationView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
